@@ -33,18 +33,15 @@ The dataset includes the following features:
 ### 1. Data Splitting
 - Split the dataset into training and testing sets.
 
-### 2. Further Splitting for Validation
-- Further split the training set into training and validation sets.
-
-### 3. Resampling on Training Set
+### 2. Resampling on Training Set
 - Apply resampling techniques (Over Sampling, Under Sampling, or a combination like SMOTE and Tomek Links) exclusively on the training set.
 - Techniques like SMOTE generate synthetic instances, while others may undersample the majority class to address the class imbalance.
 
-### 4. Model Training
+### 3. Model Training
 - Train a machine learning model on the resampled training set.
 - For example, use a RandomForestClassifier.
 
-### 5. Validation Set Evaluation
+### 4. Validation Set Evaluation
 - Evaluate the model on the validation set to monitor its performance during training.
 - Calculate and print the F1 score as the primary evaluation metric.
 
