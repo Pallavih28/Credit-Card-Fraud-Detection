@@ -4,9 +4,22 @@
 
 This project focuses on building a machine-learning model to detect credit card fraud. The dataset used contains anonymized features, including transaction amounts and principal components obtained through dimensionality reduction.
 
-### Motivation
+## Objective:
 
-Credit card fraud is a prevalent issue, and effective fraud detection is crucial to mitigate financial losses. This project aims to explore and implement methods for identifying fraudulent transactions using machine learning techniques.
+Develop a credit card fraud detection system that compares the effectiveness of various under-sampling and over-sampling techniques when paired with different machine learning algorithms. The primary goals include:
+
+1. **Explore and preprocess the credit card transaction dataset.**
+2. **Implement multiple under-sampling and over-sampling techniques to handle class imbalance.**
+3. **Experiment with diverse classification algorithms, such as Random Forest, Logistic Regression, and Support Vector Machines.**
+4. **Evaluate the models using metrics like accuracy, precision, recall, F1 score, and AUC-ROC.**
+5. **Identify the most effective combination of sampling technique and algorithm for optimal fraud detection performance.**
+
+## Deliverables:
+
+- Comparative analysis of under-sampling and over-sampling methods.
+- Model performance metrics for each combination of technique and algorithm.
+- Recommendations for the most suitable approach for credit card fraud detection based on the experiment results.
+
 
 ## Features
 
